@@ -1,11 +1,3 @@
-__author__ = 'Paarth Bhasin'
-__title__ = "Assignment-1 FIT2070: Operating Systems"
-__tutor__ = "Hasanul Ferdaus"
-__StartDate__ = '22/8/2016'
-__studentID__ = 26356104
-__LastModified__ = '31/8/2016'
-
-
 '''We import os and subprocess for us to able to run the linux commands from command line in python shell.'''
 
 import os
