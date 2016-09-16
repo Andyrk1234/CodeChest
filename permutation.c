@@ -1,11 +1,5 @@
 // C program to print all permutations with duplicates allowed
-/*
-Author: Paarth Bhasin
-Date Started: 8/09/2016
-Title: Assignment-2 FIT2070
-Tutor: Hasanul Ferdaus
-Last Modified: 13/09/2016
-*/
+
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
