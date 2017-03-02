@@ -6,12 +6,15 @@ import re
 def solution(S):
     # write your code in Python 2.7
     p = re.compile("(([a-z]*[A-Z]+[a-z]*)+|([A-Z]+[a-z]*))+")
-    password = p.search(S)
-
-    if password != None:
-        return len(password.group(1))
+    password = re.findall(p, S)
+    
+    if len(password) > 0:
+        # print password.group(1)
+        array = [x[0] for x in password]
+        array.sort(key = len)
+        array.reverse()
+        return array[0]
     else:
         return -1
         
-
-print solution("a0bchdhhD")
+print solution("a0bchdhhD091abcbddDdhdhdqQ")
