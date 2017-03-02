@@ -13,7 +13,7 @@ def solution(S):
         array = [x[0] for x in password]
         array.sort(key = len)
         array.reverse()
-        return array[0]
+        return len(array[0])
     else:
         return -1
         
